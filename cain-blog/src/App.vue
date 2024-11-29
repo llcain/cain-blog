@@ -1,5 +1,9 @@
+import {createRouter, createWebHistory} from "vue-router";
+
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import Posts from './components/Posts.js';
+import Post from './components/Post.js';
 import TheWelcome from './components/TheWelcome.vue'
 </script>
 
