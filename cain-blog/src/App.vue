@@ -1,20 +1,17 @@
 import {createRouter, createWebHistory} from "vue-router";
 
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import Posts from './components/Posts.js';
-import Post from './components/Post.js';
-import TheWelcome from './components/TheWelcome.vue'
+
+
 </script>
 
 <template lang="pug">
-  header
-    h1 LaQuisha
-    p This is a paragraph
+  div
+    router-link(to="/") Home
+    |
+    router-link(to="/about") About
+    router-view
 
-  <main>
-    
-  </main>
 </template>
 
 <style scoped>
